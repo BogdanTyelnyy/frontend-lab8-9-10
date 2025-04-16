@@ -13,7 +13,6 @@ function App() {
         async function fetchFilms() {
             try {
                 const res = await axios.get('http://localhost:5000/films');
-                console.log(res.data);
                 setFilms(res.data);
             } finally {
                 setLoaded(true);
