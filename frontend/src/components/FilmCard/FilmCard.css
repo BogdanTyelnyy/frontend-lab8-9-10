@@ -1,4 +1,12 @@
 .film-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
     border: 1px solid black;
     border-radius: 5px;
+    padding: 15px;
+    margin: 15px;
+    margin-bottom: 40px;
 }

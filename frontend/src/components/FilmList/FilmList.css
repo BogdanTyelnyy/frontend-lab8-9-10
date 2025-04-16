@@ -1,0 +1,21 @@
+.film-list-overlay {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.film-list {
+    display: grid;
+    width: 80%;
+    grid-template-columns: repeat(3, 33%);
+    padding-bottom: 15px;
+}
+
+.search {
+    width: 50%;
+    height: 30px;
+    border-radius: 20px;
+    padding: 5px;
+    border: 1px solid black;
+}

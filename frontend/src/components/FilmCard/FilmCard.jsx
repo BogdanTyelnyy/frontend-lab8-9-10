@@ -6,10 +6,10 @@ export default function FilmCard({ film }) {
     return (
         <div className="film-card">
             <img src={poster}/>
-            <label>{title}</label>
-            <p>{description}</p>
-            <p>{genre}</p>
-            <p>{Date(showtime)}</p>
+            <label><strong>Title: </strong>{title}</label>
+            <p><strong>Description: </strong>{description}</p>
+            <p><strong>Genre: </strong>{genre}</p>
+            <p><strong>Showtime: </strong>{Date(showtime)}</p>
         </div>
     );
 }
