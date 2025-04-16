@@ -1,6 +1,7 @@
 import { Routes, Route } from "react-router-dom";
 import { createContext, useEffect, useState } from "react";
 import axios from "axios";
+import FilmList from "./components/FilmList/FilmList";
 
 export const filmsContext = createContext(null);
 
@@ -24,7 +25,7 @@ function App() {
     return (
         <filmsContext.Provider value={{films, loaded}}>
             <Routes>
-                <Route path="/" element={<div>Home</div>} />
+                <Route path="/" element={<FilmList />} />
                 <Route path="/test" element={<div>Test</div>} />
             </Routes>
         </filmsContext.Provider>
