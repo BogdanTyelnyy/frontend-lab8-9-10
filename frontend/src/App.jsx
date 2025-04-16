@@ -1,11 +1,33 @@
 import { Routes, Route } from "react-router-dom";
+import { createContext, useEffect, useState } from "react";
+import axios from "axios";
+
+export const filmsContext = createContext(null);
 
 function App() {
+    const [films, setFilms] = useState([]);
+    const [loaded, setLoaded] = useState(false);
+
+    useEffect(() => {
+        async function fetchFilms() {
+            try {
+                const res = await axios.get('http://localhost:5000/films');
+                console.log(res.data);
+                setFilms(res.data);
+            } finally {
+                setLoaded(true);
+            }
+        }
+        fetchFilms();
+    }, []);
+
     return (
-        <Routes>
-            <Route path="/" element={<div>Home</div>} />
-            <Route path="/test" element={<div>Test</div>} />
-        </Routes>
+        <filmsContext.Provider value={{films, loaded}}>
+            <Routes>
+                <Route path="/" element={<div>Home</div>} />
+                <Route path="/test" element={<div>Test</div>} />
+            </Routes>
+        </filmsContext.Provider>
     );
 }
 
