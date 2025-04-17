@@ -1,8 +1,10 @@
 import Place from "../classes/Place";
+import Counter from "../classes/Counter";
 
-export function initializeHalls(data, counter) {
+export function initializeHalls(data) {
     const res = [];
     for(let hall of data) {
+        const counter = Counter();
         res.push({
             number: hall.number, 
             places: [],

@@ -1,12 +1,10 @@
 import { useEffect, useState } from "react";
 import { initializeHalls } from "../../libs/initializeData";
 import axios from "axios";
-import Counter from "../../classes/Counter";
 import BookingMatrix from "../../components/BookingMatrix/BookingMatrix";
 import ScrollBar from "../../components/ScrollBar/ScrollBar";
 
 export default function Booking() {
-    const counter = Counter();
     const [halls, setHalls] = useState([]);
     const [loaded, setLoaded] = useState(false);
     const [currentHall, setCurrentHall] = useState(0);
@@ -14,7 +12,7 @@ export default function Booking() {
         async function fetchHalls() {
             try {
                 const res = await axios.get('http://localhost:5000/halls');
-                setHalls(initializeHalls(res.data, counter));
+                setHalls(initializeHalls(res.data));
             } finally {
                 setLoaded(true);
             }
