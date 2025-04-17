@@ -2,6 +2,7 @@ import { Routes, Route } from "react-router-dom";
 import { createContext, useEffect, useState } from "react";
 import axios from "axios";
 import Home from "./pages/Home/Home";
+import Booking from "./pages/Booking/Booking";
 
 export const filmsContext = createContext(null);
 
@@ -25,7 +26,7 @@ function App() {
         <filmsContext.Provider value={{films, loaded}}>
             <Routes>
                 <Route path="/" element={<Home />} />
-                <Route path="/test" element={<div>Test</div>} />
+                <Route path="/booking" element={<Booking />} />
             </Routes>
         </filmsContext.Provider>
     );

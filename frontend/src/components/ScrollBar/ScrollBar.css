@@ -1,0 +1,11 @@
+.scroll-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.scroll-bar button {
+    width: 50px;
+    margin: 10px;
+}
