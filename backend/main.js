@@ -23,3 +23,16 @@ app.get('/films', (req, res) => {
         res.status(404);
     }
 });
+
+app.get('/halls', (req, res) => {
+    try {
+        fs.promises.readFile(
+            './database/halls.json', {
+                encoding: "utf-8",
+            }).then(halls => {
+                res.status(200).json(JSON.parse(halls));
+            })
+    } catch {
+        res.status(404);
+    }
+});

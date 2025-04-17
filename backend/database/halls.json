@@ -1,0 +1,30 @@
+[
+	{
+		"number": 1,
+		"size": {
+			"columns": 20,
+			"rows": 15
+		}
+	},
+	{
+		"number": 2,
+		"size": {
+			"columns": 18,
+			"rows": 12
+		}
+	},
+	{
+		"number": 3,
+		"size": {
+			"columns": 25,
+			"rows": 20
+		}
+	},
+	{
+		"number": 4,
+		"size": {
+			"columns": 15,
+			"rows": 10
+		}
+	}
+]
