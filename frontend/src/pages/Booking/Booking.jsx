@@ -3,8 +3,10 @@ import { initializeHalls } from "../../libs/initializeData";
 import axios from "axios";
 import BookingMatrix from "../../components/BookingMatrix/BookingMatrix";
 import ScrollBar from "../../components/ScrollBar/ScrollBar";
+import { useParams } from "react-router-dom";
 
 export default function Booking() {
+    const { id } = useParams();
     const [halls, setHalls] = useState([]);
     const [loaded, setLoaded] = useState(false);
     const [currentHall, setCurrentHall] = useState(0);
@@ -18,6 +20,7 @@ export default function Booking() {
             }
         }
         fetchHalls();
+        console.log(id);
     }, []);
     if(!loaded) return (<>Завантаження</>);
     return(

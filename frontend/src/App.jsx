@@ -26,7 +26,7 @@ function App() {
         <filmsContext.Provider value={{films, loaded}}>
             <Routes>
                 <Route path="/" element={<Home />} />
-                <Route path="/booking" element={<Booking />} />
+                <Route path="/booking/:id" element={<Booking />} />
             </Routes>
         </filmsContext.Provider>
     );
