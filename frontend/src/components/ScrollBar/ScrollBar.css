@@ -9,3 +9,8 @@
     width: 50px;
     margin: 10px;
 }
+
+.scroll-bar p {
+    padding: 3px;
+    background: rgb(224, 226, 209);
+}

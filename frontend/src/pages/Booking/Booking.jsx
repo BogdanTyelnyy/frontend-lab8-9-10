@@ -7,6 +7,7 @@ import { useParams, useNavigate } from "react-router-dom";
 import { setBookedPlaces } from "../../services/BookingService";
 import BookButton from "../../components/BookButton/BookButton";
 import ConfirmBooking from "../../components/ConfirmBooking/ConfirmBooking";
+import "./Booking.css";
 
 export default function Booking() {
     const { id } = useParams();
