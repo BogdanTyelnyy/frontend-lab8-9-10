@@ -6,3 +6,21 @@
     height: 100vh;
     background: rgb(0,0,0,0.5);
 }
+
+.confirm-booking {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    background: rgb(255,255,255);
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    transform: translate(-50%, -50%);
+}
+
+.confirm-booking input {
+    margin: 3px;
+    height: 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
