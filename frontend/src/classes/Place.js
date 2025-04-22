@@ -1,6 +1,10 @@
 export default class Place {
-    constructor(count) {
+    constructor(count, state) {
         this.number = count;
-        this.state = 'empty';
+        this.state = state || 'empty';
+    }
+    switchState() {
+        if(this.state === 'empty') this.state = 'selected';
+        else this.state = 'empty';
     }
 }
