@@ -33,6 +33,7 @@ export default function Booking() {
     if(!loaded) return (<>Завантаження</>);
     return(
         <div className="booking-overlay">
+            <button onClick={() => navigate(-1)}>Back to films</button>
             {confirmation && 
                 <ConfirmBooking 
                     hide={() => setConfirmation(false)}
