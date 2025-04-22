@@ -12,8 +12,8 @@ export default function FilmList({ search }) {
                 .filter(film => {
                     return film.title.toLowerCase().includes(search) || search == '';
                 })
-                .map((film, key) => {
-                    return (<FilmCard key={key} film={film}/>);
+                .map(film => {
+                    return (<FilmCard key={film.id} film={film}/>);
                 })
             }
         </div>
