@@ -3,12 +3,14 @@ export function getBookedPlaces(film) {
     return res ? JSON.parse(res) : [];
 }
 
-export function setBookedPlaces(film, places) {
+export function setBookedPlaces(film, halls) {
     let res = [];
-    for(let i = 0; i < places.length; i++) {
-        for(let j = 0; j < places[i].length; j++) {
-            if(!places[i][j].isEmpty()) {
-                res.push(places[i][j].number);
+    for(const {places} of halls) {
+        for(let i = 0; i < places.length; i++) {
+            for(let j = 0; j < places[i].length; j++) {
+                if(!places[i][j].isEmpty()) {
+                    res.push(places[i][j].number);
+                }
             }
         }
     }

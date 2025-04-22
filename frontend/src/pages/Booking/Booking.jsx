@@ -37,7 +37,7 @@ export default function Booking() {
                 <ConfirmBooking 
                     hide={() => setConfirmation(false)}
                     confirm={() => {
-                        setBookedPlaces(id, halls[currentHall].places);
+                        setBookedPlaces(id, halls);
                         navigate(0);
                     }}/>
             }

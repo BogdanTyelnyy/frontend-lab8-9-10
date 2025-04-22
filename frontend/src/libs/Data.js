@@ -5,9 +5,8 @@ import { getBookedPlaces } from "../services/BookingService";
 export function initializeHalls(data, id) {
     const res = [];
     const booked = getBookedPlaces(id);
-
+    const counter = Counter();
     for(let hall of data) {
-        const counter = Counter();
         res.push({
             number: hall.number, 
             size: hall.size,
