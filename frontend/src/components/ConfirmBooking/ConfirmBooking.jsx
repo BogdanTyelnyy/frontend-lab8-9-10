@@ -1,4 +1,6 @@
 import { useRef } from "react";
+import { ToastContainer, toast } from 'react-toastify';
+
 import "./ConfirmBooking.css";
 export default function ConfirmBooking({ hide, confirm }) {
     const ref = useRef();
@@ -24,13 +26,15 @@ export default function ConfirmBooking({ hide, confirm }) {
         e.preventDefault();
         try {
             if(check(e)) {
-                confirm();
+                toast('✅Booked!');
+                setTimeout(() => confirm(), 7000);
             }
         } catch(err) {
+            toast('❌Wrong format!');
             err.style.border = "1px solid red";
             setTimeout(() => {
                 err.style.border = "";
-            }, 1000);
+            }, 3000);
         }
     }
     return (
@@ -46,6 +50,7 @@ export default function ConfirmBooking({ hide, confirm }) {
                 <input type="email" placeholder="example@mail.com"></input>
                 <button type="submit">Confirm</button>
             </div>
+            <ToastContainer />
         </form>
     );
 }
