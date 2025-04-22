@@ -16,3 +16,7 @@
 .selected {
     background: rgb(44, 73, 168);
 }
+
+.booked {
+    background: rgb(168, 46, 44);
+}

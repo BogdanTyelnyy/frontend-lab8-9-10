@@ -6,7 +6,7 @@ export default function BookingPlace({ text, state, handleClick }) {
         <div 
             className={`booking-place ${state}`}
             ref={ref} 
-            onClick={handleClick}>
+            onClick={state === 'booked' ? null : handleClick}>
             { text }
         </div>
     );

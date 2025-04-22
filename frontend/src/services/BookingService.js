@@ -1,6 +1,6 @@
 export function getBookedPlaces(film) {
-    const res = localStorage.getItem(toString(film));
-    console.log(res);
+    const res = localStorage.getItem(film);
+    return res ? JSON.parse(res) : [];
 }
 
 export function setBookedPlaces(film, places) {

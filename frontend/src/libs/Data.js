@@ -1,8 +1,11 @@
 import Place from "../classes/Place";
 import Counter from "../classes/Counter";
+import { getBookedPlaces } from "../services/BookingService";
 
-export function initializeHalls(data) {
+export function initializeHalls(data, id) {
     const res = [];
+    const booked = getBookedPlaces(id);
+
     for(let hall of data) {
         const counter = Counter();
         res.push({
@@ -14,10 +17,14 @@ export function initializeHalls(data) {
         for(let row = 0; row < rows; row++) {
             res.at(-1).places.push([]);
             for(let column = 0; column < columns; column++) {
-                res.at(-1).places.at(-1).push(new Place(counter()));
+                const count = counter();
+                let state = null;
+                if(booked.includes(count)) state = 'booked';
+                res.at(-1).places.at(-1).push(new Place(count, state));
             }
         }
     }
+    console.log(res);
     return res;
 }
 
