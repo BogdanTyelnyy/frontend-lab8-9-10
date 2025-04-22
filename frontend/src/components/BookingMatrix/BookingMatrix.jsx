@@ -1,6 +1,6 @@
 import BookingPlace from "../BookingPlace/BookingPlace";
 import "./BookingMatrix.css";
-export default function BookingMatrix({ hall }) {
+export default function BookingMatrix({ hall, setHall }) {
     return (
         <div className="booking-matrix">
             {
@@ -13,6 +13,8 @@ export default function BookingMatrix({ hall }) {
                                         <BookingPlace 
                                             key={el.number} 
                                             text = {el.number}
+                                            state={el.state}
+                                            handleClick={e => setHall()}
                                             />
                                     );
                                 })
