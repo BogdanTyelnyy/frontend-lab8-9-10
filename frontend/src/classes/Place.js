@@ -7,4 +7,7 @@ export default class Place {
         if(this.state === 'empty') this.state = 'selected';
         else this.state = 'empty';
     }
+    isEmpty() {
+        return this.state === 'empty';
+    }
 }

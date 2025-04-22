@@ -1,0 +1,7 @@
+.save-choosen-places {
+    display: flex;
+    justify-self: center;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+}
