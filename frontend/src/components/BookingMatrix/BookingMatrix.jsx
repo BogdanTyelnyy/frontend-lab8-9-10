@@ -4,17 +4,17 @@ export default function BookingMatrix({ hall, setHall }) {
     return (
         <div className="booking-matrix">
             {
-                hall.places.map((row, ind) => {
+                hall.places.map((row, row_ind) => {
                     return (
-                        <div key={ind} className="booking-matrix-row">
+                        <div key={row_ind} className="booking-matrix-row">
                             {
-                                row.map(el => {
+                                row.map((el, col_ind) => {
                                     return (
                                         <BookingPlace 
                                             key={el.number} 
                                             text = {el.number}
                                             state={el.state}
-                                            handleClick={e => setHall()}
+                                            handleClick={e => setHall(row_ind, col_ind, 'used')}
                                             />
                                     );
                                 })
