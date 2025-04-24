@@ -1,7 +1,7 @@
 [
 	{
 		"id": 1,
-		"poster": "1.jpeg",
+		"poster": "https://goldendiscs.ie/cdn/shop/products/MM00269485.jpg?v=1690917989",
 		"title": "The Shawshank Redemption",
 		"description": "Two imprisoned men bond over several years, finding solace and eventual redemption through acts of common decency.",
 		"genre": "Drama",
@@ -9,7 +9,7 @@
 	},
 	{
 		"id": 2,
-		"poster": "2.jpeg",
+		"poster": "https://m.media-amazon.com/images/M/MV5BNGEwYjgwOGQtYjg5ZS00Njc1LTk2ZGEtM2QwZWQ2NjdhZTE5XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
 		"title": "The Godfather",
 		"description": "The aging patriarch of an organized crime dynasty transfers control of his clandestine empire to his reluctant son.",
 		"genre": "Crime",
@@ -17,7 +17,7 @@
 	},
 	{
 		"id": 3,
-		"poster": "3.jpeg",
+		"poster": "https://m.media-amazon.com/images/M/MV5BMjAxMzY3NjcxNF5BMl5BanBnXkFtZTcwNTI5OTM0Mw@@._V1_FMjpg_UX1000_.jpg",
 		"title": "Inception",
 		"description": "A thief with the ability to enter dreams and steal secrets must plant an idea into a target's mind.",
 		"genre": "Sci-Fi",
@@ -25,7 +25,7 @@
 	},
 	{
 		"id": 4,
-		"poster": "4.jpeg",
+		"poster": "https://m.media-amazon.com/images/M/MV5BYTViYTE3ZGQtNDBlMC00ZTAyLTkyODMtZGRiZDg0MjA2YThkXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
 		"title": "Pulp Fiction",
 		"description": "The lives of two mob hitmen, a boxer, a gangster, and his wife intertwine in four tales of violence and redemption.",
 		"genre": "Crime",
@@ -33,7 +33,7 @@
 	},
 	{
 		"id": 5,
-		"poster": "5.jpeg",
+		"poster": "https://m.media-amazon.com/images/M/MV5BMTMxNTMwODM0NF5BMl5BanBnXkFtZTcwODAyMTk2Mw@@._V1_FMjpg_UX1000_.jpg",
 		"title": "The Dark Knight",
 		"description": "Batman faces the Joker, a criminal mastermind who plunges Gotham into chaos.",
 		"genre": "Action",
@@ -41,7 +41,7 @@
 	},
 	{
 		"id": 6,
-		"poster": "6.jpeg",
+		"poster": "https://m.media-amazon.com/images/I/91++WV6FP4L._AC_UF1000,1000_QL80_.jpg",
 		"title": "Forrest Gump",
 		"description": "The story of a man with a low IQ who achieves great things in life, from sports to war to love.",
 		"genre": "Drama",
@@ -49,7 +49,7 @@
 	},
 	{
 		"id": 7,
-		"poster": "7.jpeg",
+		"poster": "https://m.media-amazon.com/images/M/MV5BOTgyOGQ1NDItNGU3Ny00MjU3LTg2YWEtNmEyYjBiMjI1Y2M5XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
 		"title": "Fight Club",
 		"description": "An insomniac office worker and a soap salesman form an underground fight club that evolves into something more.",
 		"genre": "Drama",
@@ -57,7 +57,7 @@
 	},
 	{
 		"id": 8,
-		"poster": "8.jpeg",
+		"poster": "https://m.media-amazon.com/images/M/MV5BN2NmN2VhMTQtMDNiOS00NDlhLTliMjgtODE2ZTY0ODQyNDRhXkEyXkFqcGc@._V1_.jpg",
 		"title": "The Matrix",
 		"description": "A hacker discovers a mysterious group that reveals the truth about his reality.",
 		"genre": "Sci-Fi",
@@ -65,7 +65,7 @@
 	},
 	{
 		"id": 9,
-		"poster": "9.jpeg",
+		"poster": "https://uaserials.pro/posters/2064.webp",
 		"title": "Gladiator",
 		"description": "A betrayed Roman general seeks revenge against the emperor who murdered his family.",
 		"genre": "Action",
@@ -73,7 +73,7 @@
 	},
 	{
 		"id": 10,
-		"poster": "10.jpeg",
+		"poster": "https://m.media-amazon.com/images/M/MV5BYzYyN2FiZmUtYWYzMy00MzViLWJkZTMtOGY1ZjgzNWMwN2YxXkEyXkFqcGc@._V1_.jpg",
 		"title": "Titanic",
 		"description": "A young couple falls in love aboard the ill-fated RMS Titanic.",
 		"genre": "Romance",
@@ -81,7 +81,7 @@
 	},
 	{
 		"id": 11,
-		"poster": "11.jpeg",
+		"poster": "https://m.media-amazon.com/images/M/MV5BNjM1ZDQxYWUtMzQyZS00MTE1LWJmZGYtNGUyNTdlYjM3ZmVmXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
 		"title": "Schindler's List",
 		"description": "A German industrialist saves Jews from the Holocaust by employing them in his factories.",
 		"genre": "Drama",
@@ -89,7 +89,7 @@
 	},
 	{
 		"id": 12,
-		"poster": "12.jpeg",
+		"poster": "https://m.media-amazon.com/images/M/MV5BNzIxMDQ2YTctNDY4MC00ZTRhLTk4ODQtMTVlOWY4NTdiYmMwXkEyXkFqcGc@._V1_.jpg",
 		"title": "The Lord of the Rings: The Fellowship of the Ring",
 		"description": "A hobbit embarks on a quest to destroy a powerful ring.",
 		"genre": "Fantasy",
@@ -97,7 +97,7 @@
 	},
 	{
 		"id": 13,
-		"poster": "13.jpeg",
+		"poster": "https://m.media-amazon.com/images/M/MV5BOGUwMDk0Y2MtNjBlNi00NmRiLTk2MWYtMGMyMDlhYmI4ZDBjXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
 		"title": "Star Wars: A New Hope",
 		"description": "A young farmer joins a rebellion to destroy an evil empire's superweapon.",
 		"genre": "Sci-Fi",
@@ -105,7 +105,7 @@
 	},
 	{
 		"id": 14,
-		"poster": "14.jpeg",
+		"poster": "https://m.media-amazon.com/images/M/MV5BMjM2MDgxMDg0Nl5BMl5BanBnXkFtZTgwNTM2OTM5NDE@._V1_FMjpg_UX1000_.jpg",
 		"title": "Jurassic Park",
 		"description": "Scientists bring dinosaurs back to life, but chaos ensues when they escape.",
 		"genre": "Adventure",
@@ -113,7 +113,7 @@
 	},
 	{
 		"id": 15,
-		"poster": "15.jpeg",
+		"poster": "https://m.media-amazon.com/images/M/MV5BNDdhOGJhYzctYzYwZC00YmI2LWI0MjctYjg4ODdlMDExYjBlXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
 		"title": "The Silence of the Lambs",
 		"description": "An FBI trainee seeks the help of a brilliant but dangerous cannibal to catch a serial killer.",
 		"genre": "Thriller",
@@ -121,7 +121,7 @@
 	},
 	{
 		"id": 16,
-		"poster": "16.jpeg",
+		"poster": "https://m.media-amazon.com/images/M/MV5BMDEzMmQwZjctZWU2My00MWNlLWE0NjItMDJlYTRlNGJiZjcyXkEyXkFqcGc@._V1_.jpg",
 		"title": "Avatar",
 		"description": "A marine on an alien planet becomes torn between his mission and the indigenous people.",
 		"genre": "Sci-Fi",
@@ -129,7 +129,7 @@
 	},
 	{
 		"id": 17,
-		"poster": "17.jpeg",
+		"poster": "https://m.media-amazon.com/images/M/MV5BNGE0YTVjNzUtNzJjOS00NGNlLTgxMzctZTY4YTE1Y2Y1ZTU4XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
 		"title": "The Avengers",
 		"description": "Superheroes team up to save Earth from an alien invasion.",
 		"genre": "Action",
@@ -137,7 +137,7 @@
 	},
 	{
 		"id": 18,
-		"poster": "18.jpeg",
+		"poster": "https://m.media-amazon.com/images/M/MV5BNDdjZGQ5YzEtNTc2My00Mjc0LWFlMTctYzkwMzZlNzdiZWYzXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
 		"title": "Good Will Hunting",
 		"description": "A janitor with a genius-level intellect forms a bond with his therapist.",
 		"genre": "Drama",
@@ -145,7 +145,7 @@
 	},
 	{
 		"id": 19,
-		"poster": "19.jpeg",
+		"poster": "https://m.media-amazon.com/images/M/MV5BMTI1MTY2OTIxNV5BMl5BanBnXkFtZTYwNjQ4NjY3._V1_FMjpg_UX1000_.jpg",
 		"title": "The Departed",
 		"description": "An undercover cop and a mole in the police try to identify each other.",
 		"genre": "Crime",
@@ -153,7 +153,7 @@
 	},
 	{
 		"id": 20,
-		"poster": "20.jpeg",
+		"poster": "https://m.media-amazon.com/images/M/MV5BMzUzNDM2NzM2MV5BMl5BanBnXkFtZTgwNTM3NTg4OTE@._V1_.jpg",
 		"title": "La La Land",
 		"description": "A musician and an actress chase their dreams in Los Angeles while falling in love.",
 		"genre": "Romance",
@@ -161,7 +161,7 @@
 	},
 	{
 		"id": 21,
-		"poster": "21.jpeg",
+		"poster": "https://m.media-amazon.com/images/M/MV5BYzdjMDAxZGItMjI2My00ODA1LTlkNzItOWFjMDU5ZDJlYWY3XkEyXkFqcGc@._V1_.jpg",
 		"title": "Interstellar",
 		"description": "Astronauts travel through a wormhole to find a new home for humanity.",
 		"genre": "Sci-Fi",
@@ -169,7 +169,7 @@
 	},
 	{
 		"id": 22,
-		"poster": "22.jpeg",
+		"poster": "https://m.media-amazon.com/images/M/MV5BMjIxMjgxNTk0MF5BMl5BanBnXkFtZTgwNjIyOTg2MDE@._V1_.jpg",
 		"title": "The Wolf of Wall Street",
 		"description": "The rise and fall of a stockbroker who indulges in excess and corruption.",
 		"genre": "Comedy",
@@ -177,7 +177,7 @@
 	},
 	{
 		"id": 23,
-		"poster": "23.jpeg",
+		"poster": "https://m.media-amazon.com/images/M/MV5BMjIyNTQ5NjQ1OV5BMl5BanBnXkFtZTcwODg1MDU4OA@@._V1_.jpg",
 		"title": "Django Unchained",
 		"description": "A freed slave teams up with a bounty hunter to rescue his wife.",
 		"genre": "Western",
@@ -185,7 +185,7 @@
 	},
 	{
 		"id": 24,
-		"poster": "24.jpeg",
+		"poster": "https://m.media-amazon.com/images/M/MV5BMzM5NjUxOTEyMl5BMl5BanBnXkFtZTgwNjEyMDM0MDE@._V1_FMjpg_UX1000_.jpg",
 		"title": "The Grand Budapest Hotel",
 		"description": "A concierge and his lobby boy embark on a zany adventure after a theft.",
 		"genre": "Comedy",
@@ -193,7 +193,7 @@
 	},
 	{
 		"id": 25,
-		"poster": "25.jpeg",
+		"poster": "https://m.media-amazon.com/images/M/MV5BZDRkODJhOTgtOTc1OC00NTgzLTk4NjItNDgxZDY4YjlmNDY2XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
 		"title": "Mad Max: Fury Road",
 		"description": "In a post-apocalyptic wasteland, a drifter and a rebel fight for survival.",
 		"genre": "Action",
@@ -201,7 +201,7 @@
 	},
 	{
 		"id": 26,
-		"poster": "26.jpeg",
+		"poster": "https://m.media-amazon.com/images/M/MV5BMDFjOWFkYzktYzhhMC00NmYyLTkwY2EtYjViMDhmNzg0OGFkXkEyXkFqcGc@._V1_.jpg",
 		"title": "Whiplash",
 		"description": "A young drummer faces a ruthless music instructor in pursuit of greatness.",
 		"genre": "Drama",
@@ -209,7 +209,7 @@
 	},
 	{
 		"id": 27,
-		"poster": "27.jpeg",
+		"poster": "https://m.media-amazon.com/images/M/MV5BMjlkNTE5ZTUtNGEwNy00MGVhLThmZjMtZjU1NDE5Zjk1NDZkXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
 		"title": "The Social Network",
 		"description": "The founding of Facebook and the legal battles that followed.",
 		"genre": "Drama",
@@ -217,7 +217,7 @@
 	},
 	{
 		"id": 28,
-		"poster": "28.jpeg",
+		"poster": "https://m.media-amazon.com/images/M/MV5BNzA1Njg4NzYxOV5BMl5BanBnXkFtZTgwODk5NjU3MzI@._V1_.jpg",
 		"title": "Blade Runner 2049",
 		"description": "A replicant hunter uncovers a secret that threatens society.",
 		"genre": "Sci-Fi",
@@ -225,7 +225,7 @@
 	},
 	{
 		"id": 29,
-		"poster": "29.jpeg",
+		"poster": "https://m.media-amazon.com/images/M/MV5BMjUxMDQwNjcyNl5BMl5BanBnXkFtZTgwNzcwMzc0MTI@._V1_.jpg",
 		"title": "Get Out",
 		"description": "A Black man uncovers disturbing secrets when meeting his white girlfriend's family.",
 		"genre": "Horror",
@@ -233,7 +233,7 @@
 	},
 	{
 		"id": 30,
-		"poster": "30.jpeg",
+		"poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTcyJYd_sWzQdj87gwIiDRpi6JtzfY6-XLG-w&s",
 		"title": "Parasite",
 		"description": "A poor family infiltrates the lives of a wealthy household, with shocking consequences.",
 		"genre": "Thriller",
@@ -241,7 +241,7 @@
 	},
 	{
 		"id": 31,
-		"poster": "31.jpeg",
+		"poster": "https://m.media-amazon.com/images/M/MV5BZDU5ZTRkYmItZjg0Mi00ZTQwLThjMWItNWM3MTMxMzVjZmVjXkEyXkFqcGc@._V1_.jpg",
 		"title": "Knives Out",
 		"description": "A detective investigates the mysterious death of a wealthy patriarch.",
 		"genre": "Mystery",
@@ -249,7 +249,7 @@
 	},
 	{
 		"id": 32,
-		"poster": "32.jpeg",
+		"poster": "https://m.media-amazon.com/images/M/MV5BMTI3ZGY3ZmEtNWMxMy00ZWIwLWIyYTMtOWM4MjViOWZlZmQ4XkEyXkFqcGdeQW1yb2Njbw@@._V1_.jpg",
 		"title": "1917",
 		"description": "Two soldiers undertake a dangerous mission during World War I.",
 		"genre": "War",
@@ -257,7 +257,7 @@
 	},
 	{
 		"id": 33,
-		"poster": "33.jpeg",
+		"poster": "https://m.media-amazon.com/images/M/MV5BYmFmNmUyMjYtZTFjNS00OWQyLThhZmMtMGZkYTQ3YjY0ZDQ1XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
 		"title": "Jojo Rabbit",
 		"description": "A boy’s imaginary friend, Adolf Hitler, guides him through Nazi Germany.",
 		"genre": "Comedy",
@@ -265,7 +265,7 @@
 	},
 	{
 		"id": 34,
-		"poster": "34.jpeg",
+		"poster": "https://m.media-amazon.com/images/M/MV5BNTc0YmQxMjEtODI5MC00NjFiLTlkMWUtOGQ5NjFmYWUyZGJhXkEyXkFqcGc@._V1_.jpg",
 		"title": "Dune",
 		"description": "A noble family fights for control of a desert planet and its valuable resource.",
 		"genre": "Sci-Fi",
@@ -273,7 +273,7 @@
 	},
 	{
 		"id": 35,
-		"poster": "35.jpeg",
+		"poster": "https://m.media-amazon.com/images/M/MV5BOGFlMTM2MTgtZDdlMy00ZDZlLWFjOTUtZDMzMGEwNmNiMWY0XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
 		"title": "The Shape of Water",
 		"description": "A mute woman forms a bond with a mysterious aquatic creature.",
 		"genre": "Fantasy",
@@ -281,7 +281,7 @@
 	},
 	{
 		"id": 36,
-		"poster": "36.jpeg",
+		"poster": "https://m.media-amazon.com/images/M/MV5BNzQxNTIyODAxMV5BMl5BanBnXkFtZTgwNzQyMDA3OTE@._V1_.jpg",
 		"title": "Moonlight",
 		"description": "A young Black man grapples with his identity and sexuality in Miami.",
 		"genre": "Drama",
@@ -289,7 +289,7 @@
 	},
 	{
 		"id": 37,
-		"poster": "37.jpeg",
+		"poster": "https://m.media-amazon.com/images/M/MV5BMjA1Nzk0OTM2OF5BMl5BanBnXkFtZTgwNjU2NjEwMDE@._V1_FMjpg_UX1000_.jpg",
 		"title": "Her",
 		"description": "A lonely writer falls in love with an AI operating system.",
 		"genre": "Romance",
@@ -297,7 +297,7 @@
 	},
 	{
 		"id": 38,
-		"poster": "38.jpeg",
+		"poster": "https://m.media-amazon.com/images/M/MV5BMjA5Njk3MjM4OV5BMl5BanBnXkFtZTcwMTc5MTE1MQ@@._V1_FMjpg_UX1000_.jpg",
 		"title": "No Country for Old Men",
 		"description": "A hunter stumbles upon a drug deal gone wrong and faces a relentless hitman.",
 		"genre": "Thriller",
@@ -305,7 +305,7 @@
 	},
 	{
 		"id": 39,
-		"poster": "39.jpeg",
+		"poster": "https://m.media-amazon.com/images/M/MV5BNDQwMTAzOTkxNV5BMl5BanBnXkFtZTgwMjc0MTAwMjE@._V1_.jpg",
 		"title": "The Big Lebowski",
 		"description": "A slacker known as 'The Dude' gets caught up in a kidnapping scheme.",
 		"genre": "Comedy",
@@ -313,7 +313,7 @@
 	},
 	{
 		"id": 40,
-		"poster": "40.jpeg",
+		"poster": "https://m.media-amazon.com/images/M/MV5BNTEyNmEwOWUtYzkyOC00ZTQ4LTllZmUtMjk0Y2YwOGUzYjRiXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
 		"title": "Spirited Away",
 		"description": "A young girl navigates a magical world to save her parents.",
 		"genre": "Animation",
@@ -321,15 +321,15 @@
 	},
 	{
 		"id": 41,
-		"poster": "41.jpeg",
-		"title": "Amélie",
+		"poster": "https://m.media-amazon.com/images/M/MV5BOTNmYzY0MWQtZGZmNy00Y2Y4LWFmMDQtMTZjYTdiYzEwZGQ2XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+		"title": "Amelie",
 		"description": "A shy waitress decides to change the lives of those around her for the better.",
 		"genre": "Romance",
 		"showtime": "2025-05-06T18:00:00Z"
 	},
 	{
 		"id": 42,
-		"poster": "42.jpeg",
+		"poster": "https://m.media-amazon.com/images/M/MV5BMTY4NzcwODg3Nl5BMl5BanBnXkFtZTcwNTEwOTMyMw@@._V1_FMjpg_UX1000_.jpg",
 		"title": "Eternal Sunshine of the Spotless Mind",
 		"description": "A couple undergoes a procedure to erase each other from their memories.",
 		"genre": "Romance",
@@ -337,7 +337,7 @@
 	},
 	{
 		"id": 43,
-		"poster": "43.jpeg",
+		"poster": "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p28578_p_v10_ac.jpg",
 		"title": "Memento",
 		"description": "A man with short-term memory loss searches for his wife’s killer.",
 		"genre": "Thriller",
@@ -345,7 +345,7 @@
 	},
 	{
 		"id": 44,
-		"poster": "44.jpeg",
+		"poster": "https://m.media-amazon.com/images/M/MV5BYTFmNTFlOTAtNzEyNi00MWU2LTg3MGEtYjA2NWY3MDliNjlkXkEyXkFqcGc@._V1_.jpg",
 		"title": "Drive",
 		"description": "A stunt driver moonlighting as a getaway driver gets entangled in crime.",
 		"genre": "Action",
@@ -353,7 +353,7 @@
 	},
 	{
 		"id": 45,
-		"poster": "45.jpeg",
+		"poster": "https://m.media-amazon.com/images/M/MV5BMjA4NDI0MTIxNF5BMl5BanBnXkFtZTYwNTM0MzY2._V1_.jpg",
 		"title": "The Prestige",
 		"description": "Two magicians become obsessed with outdoing each other in a deadly rivalry.",
 		"genre": "Mystery",
@@ -361,7 +361,7 @@
 	},
 	{
 		"id": 46,
-		"poster": "46.jpeg",
+		"poster": "https://m.media-amazon.com/images/M/MV5BMjAxODQ4MDU5NV5BMl5BanBnXkFtZTcwMDU4MjU1MQ@@._V1_FMjpg_UX1000_.jpg",
 		"title": "There Will Be Blood",
 		"description": "A ruthless oilman’s rise to power comes at a personal cost.",
 		"genre": "Drama",
@@ -369,7 +369,7 @@
 	},
 	{
 		"id": 47,
-		"poster": "47.jpeg",
+		"poster": "https://m.media-amazon.com/images/M/MV5BMTI3NTQyMzU5M15BMl5BanBnXkFtZTcwMTM2MjgyMQ@@._V1_FMjpg_UX1000_.jpg",
 		"title": "Oldboy",
 		"description": "A man seeks revenge after being mysteriously imprisoned for 15 years.",
 		"genre": "Thriller",
@@ -377,7 +377,7 @@
 	},
 	{
 		"id": 48,
-		"poster": "48.jpeg",
+		"poster": "https://m.media-amazon.com/images/M/MV5BMTY5OTU0OTc2NV5BMl5BanBnXkFtZTcwMzU4MDcyMQ@@._V1_.jpg",
 		"title": "The Incredibles",
 		"description": "A family of superheroes comes out of retirement to save the world.",
 		"genre": "Animation",
@@ -385,7 +385,7 @@
 	},
 	{
 		"id": 49,
-		"poster": "49.jpeg",
+		"poster": "https://m.media-amazon.com/images/M/MV5BMDIyM2E2NTAtMzlhNy00ZGUxLWI1NjgtZDY5MzhiMDc5NGU3XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
 		"title": "Coco",
 		"description": "A boy journeys to the Land of the Dead to uncover his family’s secrets.",
 		"genre": "Animation",
@@ -393,7 +393,7 @@
 	},
 	{
 		"id": 50,
-		"poster": "50.jpeg",
+		"poster": "https://m.media-amazon.com/images/M/MV5BOWNmMzAzZmQtNDQ1NC00Nzk5LTkyMmUtNGI2N2NkOWM4MzEyXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
 		"title": "Everything Everywhere All at Once",
 		"description": "A woman navigates multiple universes to save reality.",
 		"genre": "Sci-Fi",

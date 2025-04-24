@@ -2,6 +2,7 @@
     display: grid;
     width: 80%;
     grid-template-columns: repeat(3, 33%);
+    align-items: start;
     padding-bottom: 15px;
 }
 
